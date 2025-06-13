@@ -28,5 +28,5 @@ function updateImage() {
     imageElement.alt = altText; //UPDATE IMAGE TEXT
 
     //RUN FUNCTION ONCE WEBPAGE LOADS
-    window.onload = updateImage();
+    window.onload = updateImage;
 }
