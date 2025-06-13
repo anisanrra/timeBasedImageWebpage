@@ -26,7 +26,7 @@ function updateImage() {
 
     imageElement.src = imagePath; //UPDATE IMAGE SOURCE
     imageElement.alt = altText; //UPDATE IMAGE TEXT
-
-    //RUN FUNCTION ONCE WEBPAGE LOADS
-    window.onload = updateImage;
 }
+
+//RUN FUNCTION ONCE WEBPAGE LOADS
+window.onload = updateImage;
