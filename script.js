@@ -29,4 +29,4 @@ function updateImage() {
 }
 
 //RUN FUNCTION ONCE WEBPAGE LOADS
-window.onload = updateImage;
+window.onload = updateImage();
